@@ -12,5 +12,5 @@ class Config:
     SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')+'site.db'
     '''
 
-    SECRET_KEY = '894f222ce066153c5cf6a9eb0fe728d5'
+    SECRET_KEY = ''
     SQLALCHEMY_DATABASE_URI = 'sqlite:///database//site.db'
