@@ -6,7 +6,7 @@ from blog.configurations.config import Config
 
 '''
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '894f222ce066153c5cf6a9eb0fe728d5'
+app.config['SECRET_KEY'] = ''
 app.config['SQLALCHEMY_DATABASE_URI']=  'sqlite:///database//site.db'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
